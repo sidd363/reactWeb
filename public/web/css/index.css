@@ -1,0 +1,276 @@
+body {
+    background: #f0f1f6 !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #313131;
+    line-height: 28px;
+    overflow-x: hidden !important;
+    margin: auto !important;
+}
+
+img {
+    object-fit: cover;
+}
+
+.basicinfo {
+    min-height: 800px;
+}
+
+@media (max-width: 767px) {
+    .basicinfo {
+        min-height: 0px;
+    }
+}
+
+.btn-info {
+    background-color: #ec2124;
+}
+
+
+/* CSS common */
+
+.mr0a {
+    margin: 0 auto;
+}
+
+.dfjcc {
+    display: flex;
+    justify-content: center;
+}
+
+.page-item {
+    cursor: pointer;
+}
+
+
+/* Modal styles: Admin */
+
+#myModalSkills {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#myModalEducation {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#myModalEducation .modal-body {
+    padding-top: 40px;
+}
+
+.marginBottom20 {
+  margin-bottom: 20px;
+}
+
+.mrrt10:not(:last-child) {
+    margin-right: 10px;
+}
+
+#myModalVideoScore {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#myModalVideoScore .modal-body {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+#myModalVideoScore form .form-group {
+    margin-right: 15px;
+}
+
+#myModalVideoScore form {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#myModal {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#myModal .modal-body {
+    padding-top: 40px;
+}
+
+#skillForm .bootstrap-tagsinput {
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075) !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075) !important;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s !important;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s !important;
+}
+
+.table-link {
+  color:#428bca;
+  cursor: pointer;
+}
+
+body.modal-open {
+    overflow: visible;
+}
+
+modalClick {
+  color:#428bca;
+  cursor: pointer;
+}
+
+span.modalClick {
+  color:#428bca;
+  cursor: pointer;
+}
+/* Modal styles: Admin End */
+
+.unsetAll {
+  all: unset;
+}
+
+/* Admin Table Styles */
+.tableWrapper {
+  background-color: #fff;
+  padding: 0;
+  margin: 24px 0;
+}
+
+.pdl15 {
+  padding-left: 15px;
+}
+
+.tableWrapper .table>thead>tr>th,
+.tableWrapper .table>tbody>tr>th,
+.tableWrapper .table>tfoot>tr>th,
+.tableWrapper .table>thead>tr>td,
+.tableWrapper .table>tbody>tr>td,
+.tableWrapper .table>tfoot>tr>td {
+  padding: 20px 20px 20px 30px;
+}
+
+.mrrt20 {
+  margin-right: 20px;
+}
+
+.card-2 {
+  border-radius: 2px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin-bottom: 20px;
+}
+
+.card-3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-5 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+/* Admin Table Styles End */
+
+@media (max-width: 1000px) {
+  .tableWrapper {
+    clear: both;
+  }
+  .displayNone {
+    display: none;
+  }
+}
+.count-button__badge {
+  background-color: #fa3e3e;
+  border-radius: 10px;
+  color: white;
+  /* padding: 2px; */
+  padding: 0 4px;
+  position: absolute;
+  /* top: 75px; */
+  left: 56px;
+  box-shadow: 0 0 0 0.9px;
+  z-index: 1;
+  font-size: 10px;
+}
+
+.userImage {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 22px;
+}
+
+.led-red {
+  display: inline-block;
+  margin: 0 10px 0;
+  width: 5px;
+  height: 5px;
+  background-color: #940;
+  border-radius: 50%;
+  box-shadow: #d00 0 -1px 2px 1px, inset #f00 0 -1px 9px, #f00 0 0px 2px;
+}
+
+.led-yellow {
+  display: inline-block;
+  margin: 0 10px 0;
+  width: 5px;
+  height: 5px;
+  background-color: #A90;
+  border-radius: 50%;
+  box-shadow: #000 0 -1px 2px 1px, inset #660 0 -1px 9px, #DD0 0 2px 12px;
+}
+
+.led-green {
+  display: inline-block;
+  margin: 0 10px 0;
+  width: 5px;
+  height: 5px;
+  background-color: #690;
+  border-radius: 50%;
+  box-shadow: #000 0 -1px 2px 1px, inset #460 0 -1px 9px, #7D0 0 2px 12px;
+}
+
+.led-blue {
+  display: inline-block;
+  margin: 0 10px 0;
+  width: 5px;
+  height: 5px;
+  background-color: #4AB;
+  border-radius: 50%;
+  box-shadow: #000 0 -1px 2px 1px, inset #006 0 -1px 9px, #06F 0 2px 14px;
+}
+
+.displayFlexAlignCenter {
+  display: flex;
+  align-items: center;
+}
+
+.ftSearchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ftSearchBar .form-group {
+  margin-bottom: 0;
+  margin-right: 5px;
+  padding: 10px 0;
+}
+
+.table-link span {
+    /* float: right; */
+}
+
+.dfffrnjcsbaic {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.otherInfoLink .led {
+  margin-right: 80px;
+  /* align-items: center; */
+}

@@ -1,0 +1,8 @@
+node_modules/
+build/
+public/web/scripts/react/bundle.js
+public/web/scripts/react/bundle.css
+uploads/
+dump.rdb
+package-lock.json
+config.js
